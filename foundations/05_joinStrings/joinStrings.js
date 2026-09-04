@@ -8,7 +8,21 @@
 */
 
 // Add your code right below, good luck!
+// Create 4 variables: `firstName`, `lastName`, `thisYear`, and `birthYear`
+  let firstName = "Carlos";
+  let lastName = "Stevenson";
+  let thisYear = 1965;
+  let birthYear = 1947;
+  // clean up
+  let fullName = firstName + " " + lastName;
+  let age = thisYear - birthYear;
 
+  // let greeting = "Hello! My name is " + firstName +  lastName +" and I am "+(thisYear - birthYear)+" years old."
+  // after clean up
+  let greeting = "Hello! My name is " + fullName +" and I am "+ age +" years old."
+  
+  // test (use node nameOfTheFile)
+  console.log(greeting);
 
 
 
